@@ -97,6 +97,7 @@ reports. See `container-validation.json` and `VALIDATION.md` for exact evidence.
 Final revised native public and synthetic regression runs each scored 200/200.
 Actual execution of the final container on an AMD GPU remains unverified: the
 local Docker host has no AMD GPU, and the free GPU notebook has no container
-runtime. Public publication and competition submission are pending approval.
-Hidden-corpus accuracy and official League credit remain unverified until
-organizer evaluation.
+runtime. Source repository: <https://github.com/Baneado85/walttrace-mc3>.
+The authorized image upload is in progress; intended tag:
+`walternavarrodev/walttrace-mc3:match3`. Hidden-corpus accuracy and official League
+credit remain unverified until organizer evaluation.

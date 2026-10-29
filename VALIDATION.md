@@ -1,7 +1,8 @@
 # Validation record — 2026-10-28
 
 Status: local container build and offline checks passed; native AMD GPU tests passed.
-Public publication and competition submission are pending Walter's approval.
+Walter approved public source/image publication and competition submission.
+The source repository has been created; image upload and final entry are in progress.
 
 ## Real GPU development tests
 
@@ -58,7 +59,9 @@ Native GPU measurements are useful evidence, but do not replace that check.
 
 ## Submission and points
 
-Not published. Not submitted. No Match 3 points credited to WaltTeam verified.
+Public source repository: `https://github.com/Baneado85/walttrace-mc3`.
+Image publication is in progress. Not yet submitted to Lablab.
+No Match 3 points credited to WaltTeam verified.
 The event card advertises 1,500 points for building; the live dashboard separately
 shows AMD mini-challenge evaluator results out of 200 and labels those rows XP.
 The exact relationship must not be assumed. Development test points are not
@@ -67,14 +70,14 @@ awarded League points.
 Prepared draft: `SUBMISSION_DRAFT.md`. The Lablab team draft has its title,
 description, Documents category, AMD ROCm and HuggingFace Hub technologies,
 and evaluation notes prepared. The final Submit button has not been used.
-Public publication and final submission
-require Walter's approval under his original mission instructions. Walter completed
+Walter explicitly approved public publication and final submission after reviewing
+the prepared project and the GPU-container validation limitation. Walter completed
 the official Docker device login, and the Windows credential helper confirmed
 the Docker Hub account `walternavarrodev`. No password or token was printed or
 copied into this project. Planned image: `walternavarrodev/walttrace-mc3:match3`.
 GitHub CLI was renewed by Walter and confirmed as `Baneado85`. The source is
-prepared locally for the planned public repository `Baneado85/walttrace-mc3`;
-that remote repository has not been created yet. Local commits use GitHub's
+prepared for the public repository `Baneado85/walttrace-mc3`.
+Local commits use GitHub's
 noreply address, not Walter's Gmail address.
 
 Sources: [event](https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge),
