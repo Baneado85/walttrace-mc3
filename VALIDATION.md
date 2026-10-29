@@ -2,7 +2,7 @@
 
 Status: local container build and offline checks passed; native AMD GPU tests passed.
 Walter approved public source/image publication and competition submission.
-The source repository has been created; image upload and final entry are in progress.
+Source and image are publicly available and verified. The final entry is in progress.
 
 ## Real GPU development tests
 
@@ -60,7 +60,11 @@ Native GPU measurements are useful evidence, but do not replace that check.
 ## Submission and points
 
 Public source repository: `https://github.com/Baneado85/walttrace-mc3`.
-Image publication is in progress. Not yet submitted to Lablab.
+Public image: `https://hub.docker.com/r/walternavarrodev/walttrace-mc3`.
+The public image digest exactly matches the tested local image. Anonymous registry
+access to its manifest and all 24 content blobs passed. The official base's
+compressed blob digests and sizes are unchanged. See `publication.json`.
+Not yet submitted to Lablab.
 No Match 3 points credited to WaltTeam verified.
 The event card advertises 1,500 points for building; the live dashboard separately
 shows AMD mini-challenge evaluator results out of 200 and labels those rows XP.

@@ -1,0 +1,27 @@
+{
+  "github": {
+    "url": "https://github.com/Baneado85/walttrace-mc3",
+    "public_anonymous_access": true,
+    "published_runtime_matches_image": true,
+    "runtime_sha256": {
+      "retrieval.py": "931f15195afedb31b5067700f4f66dafe50c4104f1f3bd53fcfef2bb56086b00",
+      "app.py": "c2a5b68cc5f8f73354c48b8f4bcf421ab580bdbcbe12931275fb76cdeffa7c7c",
+      "backend.py": "8cc55b9780d21d27f76259d223e7e83bcee1f8b661115d5f8174f46fd0d00b34"
+    }
+  },
+  "docker_hub": {
+    "tag": "walternavarrodev/walttrace-mc3:match3",
+    "url": "https://hub.docker.com/r/walternavarrodev/walttrace-mc3",
+    "status": "published",
+    "digest": "sha256:19bf6afb0ad28f88b5f185775f246bcc9527593fa0943c2051965565d2034c93",
+    "linux_amd64_manifest": "sha256:96633c89907ce947b3efc015690b89c07c8a8fb19ee1424d83513acfabea5464",
+    "public_anonymous_access": true,
+    "all_blobs_available": 24,
+    "official_base_blob_identity_preserved": true,
+    "matches_tested_image": true
+  },
+  "lablab": {
+    "submitted": false
+  },
+  "league_points_awarded": null
+}

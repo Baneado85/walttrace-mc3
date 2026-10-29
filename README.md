@@ -98,6 +98,9 @@ Final revised native public and synthetic regression runs each scored 200/200.
 Actual execution of the final container on an AMD GPU remains unverified: the
 local Docker host has no AMD GPU, and the free GPU notebook has no container
 runtime. Source repository: <https://github.com/Baneado85/walttrace-mc3>.
-The authorized image upload is in progress; intended tag:
-`walternavarrodev/walttrace-mc3:match3`. Hidden-corpus accuracy and official League
-credit remain unverified until organizer evaluation.
+Public image: [Docker Hub](https://hub.docker.com/r/walternavarrodev/walttrace-mc3).
+Pull with `docker pull walternavarrodev/walttrace-mc3:match3`.
+Its digest is `sha256:19bf6afb0ad28f88b5f185775f246bcc9527593fa0943c2051965565d2034c93`.
+Anonymous access, all 24 content blobs and unchanged official base blob identities
+were verified after publication. Hidden-corpus accuracy and official League credit
+remain unverified until organizer evaluation.
