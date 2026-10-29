@@ -102,5 +102,7 @@ Public image: [Docker Hub](https://hub.docker.com/r/walternavarrodev/walttrace-m
 Pull with `docker pull walternavarrodev/walttrace-mc3:match3`.
 Its digest is `sha256:19bf6afb0ad28f88b5f185775f246bcc9527593fa0943c2051965565d2034c93`.
 Anonymous access, all 24 content blobs and unchanged official base blob identities
-were verified after publication. Hidden-corpus accuracy and official League credit
-remain unverified until organizer evaluation.
+were verified after publication. Lablab confirmed the
+[WaltTeam submission](https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge/waltteam/walttrace-offline-multimodal-rag).
+Hidden-corpus accuracy and official League credit remain unverified until
+organizer evaluation; native development scores do not represent awarded XP.

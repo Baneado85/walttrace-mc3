@@ -2,7 +2,8 @@
 
 Status: local container build and offline checks passed; native AMD GPU tests passed.
 Walter approved public source/image publication and competition submission.
-Source and image are publicly available and verified. The final entry is in progress.
+Source and image are publicly available and verified. Lablab confirmed the final
+submission. Official AMD Match 3 results and awarded Quest XP remain pending.
 
 ## Real GPU development tests
 
@@ -64,7 +65,13 @@ Public image: `https://hub.docker.com/r/walternavarrodev/walttrace-mc3`.
 The public image digest exactly matches the tested local image. Anonymous registry
 access to its manifest and all 24 content blobs passed. The official base's
 compressed blob digests and sizes are unchanged. See `publication.json`.
-Not yet submitted to Lablab.
+Lablab explicitly acknowledged successful submission. Public project:
+<https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge/waltteam/walttrace-offline-multimodal-rag>.
+Submitted image reference: `docker.io/walternavarrodev/walttrace-mc3:match3`.
+The project page says judging is in progress. At the recorded check, no WaltTeam
+entry appeared in the separate AMD Mini-Challenge results table. The event's
+general builder leaderboard showed 155 points; those are not a verified MC3
+score or Quest XP award.
 No Match 3 points credited to WaltTeam verified.
 The event card advertises 1,500 points for building; the live dashboard separately
 shows AMD mini-challenge evaluator results out of 200 and labels those rows XP.
@@ -73,7 +80,8 @@ awarded League points.
 
 Prepared draft: `SUBMISSION_DRAFT.md`. The Lablab team draft has its title,
 description, Documents category, AMD ROCm and HuggingFace Hub technologies,
-and evaluation notes prepared. The final Submit button has not been used.
+and evaluation notes completed. The final Submit action returned the explicit
+success screen; the public project and GitHub link were verified.
 Walter explicitly approved public publication and final submission after reviewing
 the prepared project and the GPU-container validation limitation. Walter completed
 the official Docker device login, and the Windows credential helper confirmed

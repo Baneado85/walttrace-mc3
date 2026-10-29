@@ -21,7 +21,18 @@
     "matches_tested_image": true
   },
   "lablab": {
-    "submitted": false
+    "submitted": true,
+    "confirmation": "You have successfully submitted your project for the AMD AI League event!",
+    "project_url": "https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge/waltteam/walttrace-offline-multimodal-rag",
+    "project_id": "vmqgxpkxevi6k5vfo55rcudc",
+    "team": "WaltTeam",
+    "image_reference": "docker.io/walternavarrodev/walttrace-mc3:match3",
+    "submission_judging_status": "Judging is in progress",
+    "official_match3_score": null,
+    "official_match3_status": "No WaltTeam entry visible yet in Mini-Challenge results",
+    "general_event_builder_points": 155,
+    "general_event_builder_points_are_match3_xp": false,
+    "verified_client_date": "2026-10-28"
   },
   "league_points_awarded": null
 }
