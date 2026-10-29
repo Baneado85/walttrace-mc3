@@ -1,0 +1,16 @@
+WaltTrace answers short factual questions from mixed engineering documents while
+returning the exact files needed to support each answer. It parses PDF, Word,
+Excel, CSV, logs and source files, and uses a local vision-language model to read
+diagrams, scanned pages and equipment labels. Retrieval follows identifiers
+between incident reports and lookup tables, allowing answers that require more
+than one document. Generated quotations are checked against indexed source text;
+unsupported answers are refused with an empty answer and citation list.
+
+Qwen2.5-VL-7B runs on a real AMD GPU through ROCm PyTorch. All weights are embedded
+in the mandated container base, and the application runs without outbound network
+access. Indexing starts a resident model behind a private Unix socket so each
+fresh question process avoids reloading the weights. Malformed, unreadable,
+encrypted and unsupported files are skipped independently. The development report
+documents actual GPU timings, memory readings, individual answers and citation
+checks. Public-sample results are development evidence, not a claim about hidden
+evaluation scores or League points already awarded.

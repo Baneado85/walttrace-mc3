@@ -1,0 +1,10 @@
+*
+!Dockerfile
+!app/
+!app/**
+!models/
+!models/qwen/
+!models/qwen/**
+**/__pycache__
+**/*.pyc
+**/.cache

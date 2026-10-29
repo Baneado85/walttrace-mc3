@@ -1,0 +1,25 @@
+{
+  "source_registry": "registry-1.docker.io",
+  "repository": "rocm/pytorch",
+  "tag": "rocm10.0_ubuntu26.04_py3.14_pytorch_release_2.13.0",
+  "platform": "linux/amd64",
+  "manifest_digest": "sha256:3174cb7061d94c427da96c0edef4adea28046fa3f3b2ff3948dc4e995665ff8c",
+  "config_digest": "sha256:75287c3f4d5eba32d8b91797639a20df134e8d1a8167e9abed77d78f330fd0f3",
+  "compressed_layer_bytes": 20492259842,
+  "uncompressed_layer_diff_ids": [
+    "sha256:b577adbc0b589bb7c1d3be98cc4b703e8228ab4413156754445e8b20a001c5d3",
+    "sha256:168f4b64baaa0d1f3b8a1a27acfa9cd0f29527ebda716df024dfa0e9e8f24ef9",
+    "sha256:a9134f54da34b1d32682941673e65cd081b67c925d655c88ccbc2de09aa785da",
+    "sha256:caf1f25a17a47f78b5adef77fd309deb6cefbaf0217e371e8b150cf25c15aaa9",
+    "sha256:0a8d814ed4be74994feab3ccfdd195307800dcf81a68a3a9f94f30523d51ab09",
+    "sha256:b38896aa0cdced98be357d8a18a43e16a192d184412161f34ba5cc77a54eba12",
+    "sha256:2602901b4fb5787c6fddccec48ce40ba93c9806db3eed41f509eb8925464482f",
+    "sha256:21ffba7a2a7d4517d52c73d70997ecc13b300d68016f614b12f4389ad2afef03",
+    "sha256:3dcd1e7dd2be52064ad4b9a357d28d3f1bb2792d9b72cc1d38df17214e5c7437",
+    "sha256:4d37af74dea92595e2d97caf968a8df3084bf2dbebdd09c646b91e8b588fd86c",
+    "sha256:20560853a176a4bef47df3f77bf24d94be620d9bb8a32531588a86803a0d8d3d"
+  ],
+  "download_integrity": "Every registry blob SHA-256 verified before OCI archive creation",
+  "uncompressed_bytes_history_api": 31335165952,
+  "uncompressed_gib_history_api": 29.183147430419922
+}

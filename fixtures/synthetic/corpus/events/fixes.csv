@@ -1,0 +1,3 @@
+ticket,summary,fixed_in
+EVT-5521,Input sensor excursion under pulsed load,9.8.7
+EVT-5522,Display refresh fault,9.8.6

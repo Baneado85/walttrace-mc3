@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.part
+*.log
+!fixtures/**/*.log
+.cache/
+.pytest_cache/
+models/qwen/*.safetensors
+models/qwen/.cache/
+/index/
+/output/

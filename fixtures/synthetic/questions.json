@@ -1,0 +1,95 @@
+{
+  "queries": [
+    {
+      "n": 1,
+      "query": "What is the maximum supply voltage of the VX-80?",
+      "expected_answer": "72",
+      "expected_citations": [
+        "manuals/VX80_current.pdf"
+      ],
+      "answer_aliases": [
+        "72 V"
+      ]
+    },
+    {
+      "n": 2,
+      "query": "In which quarter does VX-90 enter customer sampling?",
+      "expected_answer": "Q2 FY31",
+      "expected_citations": [
+        "planning/pilot_schedule.docx"
+      ],
+      "answer_aliases": []
+    },
+    {
+      "n": 3,
+      "query": "What is the part number of the field-replaceable controller board for VX-80?",
+      "expected_answer": "PN-X3-70",
+      "expected_citations": [
+        "parts/service_catalog.xlsx"
+      ],
+      "answer_aliases": []
+    },
+    {
+      "n": 4,
+      "query": "Which firmware version fixed ticket EVT-5521?",
+      "expected_answer": "9.8.7",
+      "expected_citations": [
+        "events/fixes.csv"
+      ],
+      "answer_aliases": []
+    },
+    {
+      "n": 5,
+      "query": "What error code is logged for the VX-80 pressure trip?",
+      "expected_answer": "E9902",
+      "expected_citations": [
+        "events/incident.log"
+      ],
+      "answer_aliases": []
+    },
+    {
+      "n": 6,
+      "query": "What is the default queue timeout in seconds?",
+      "expected_answer": "275",
+      "expected_citations": [
+        "engineering/queue.py"
+      ],
+      "answer_aliases": []
+    },
+    {
+      "n": 7,
+      "query": "Which pin carries ALERT_N on the VX-80?",
+      "expected_answer": "D22",
+      "expected_citations": [
+        "visuals/wiring.png"
+      ],
+      "answer_aliases": []
+    },
+    {
+      "n": 8,
+      "query": "What board revision is printed on the asset label?",
+      "expected_answer": "REV-H7",
+      "expected_citations": [
+        "visuals/board.jpg"
+      ],
+      "answer_aliases": []
+    },
+    {
+      "n": 9,
+      "query": "Which firmware release fixed the root cause of the pressure trip in the incident log?",
+      "expected_answer": "9.8.7",
+      "expected_citations": [
+        "events/incident.log",
+        "events/fixes.csv"
+      ],
+      "answer_aliases": []
+    },
+    {
+      "n": 10,
+      "query": "What is the unit price of the VX-80 for 500 units?",
+      "expected_answer": "",
+      "expected_citations": [],
+      "answer_aliases": []
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "scope": "native GPU public sample; not container validation or awarded League XP",
+  "indexing_seconds": 31.851155694574118,
+  "index_stdout": "{\"indexed_chunks\": 10, \"skipped\": []}\n",
+  "score": 160,
+  "maximum": 200,
+  "metrics": {
+    "peak_allocated_bytes": 16895553536,
+    "peak_reserved_bytes": 17270046720,
+    "gpu": "AMD Radeon Pro W7900D",
+    "torch": "2.13.0+rocm10.0.0",
+    "hip": "7.15.26333"
+  },
+  "results": [
+    {
+      "id": "query_01",
+      "seconds": 1.960127279162407,
+      "output": {
+        "answer": "72 V",
+        "citations": [
+          "manuals/VX80_current.pdf"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_02",
+      "seconds": 1.495536483824253,
+      "output": {
+        "answer": "Q2 FY31",
+        "citations": [
+          "planning/pilot_schedule.docx"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_03",
+      "seconds": 2.1750837583094835,
+      "output": {
+        "answer": "PN-X3-70",
+        "citations": [
+          "parts/service_catalog.xlsx"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_04",
+      "seconds": 2.8782793898135424,
+      "output": {
+        "answer": "",
+        "citations": [],
+        "confidence": 0.0
+      },
+      "answer_correct": false,
+      "citations_correct": false,
+      "points": 0
+    },
+    {
+      "id": "query_05",
+      "seconds": 1.092332273721695,
+      "output": {
+        "answer": "E9902",
+        "citations": [
+          "events/incident.log"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_06",
+      "seconds": 1.5267943236976862,
+      "output": {
+        "answer": "275",
+        "citations": [
+          "engineering/queue.py"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_07",
+      "seconds": 1.0870037525892258,
+      "output": {
+        "answer": "D22",
+        "citations": [
+          "visuals/wiring.png"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_08",
+      "seconds": 1.0288209095597267,
+      "output": {
+        "answer": "REV-H7",
+        "citations": [
+          "visuals/board.jpg"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_09",
+      "seconds": 4.087646102532744,
+      "output": {
+        "answer": "",
+        "citations": [],
+        "confidence": 0.0
+      },
+      "answer_correct": false,
+      "citations_correct": false,
+      "points": 0
+    },
+    {
+      "id": "query_10",
+      "seconds": 0.42479981668293476,
+      "output": {
+        "answer": "",
+        "citations": [],
+        "confidence": 0.0
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    }
+  ]
+}

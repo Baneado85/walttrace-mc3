@@ -1,0 +1,155 @@
+{
+  "scope": "native GPU public sample; not container validation or awarded League XP",
+  "indexing_seconds": 40.23566120490432,
+  "index_stdout": "{\"indexed_chunks\": 15, \"skipped\": [{\"path\": \"vendor/internal_audit.txt\", \"reason\": \"PermissionError: file has no read permission bits\"}, {\"path\": \"vendor/supplier_agreement_ENCRYPTED.pdf\", \"reason\": \"DependencyError: cryptography>=3.1 is required for AES algorithm\"}, {\"path\": \"vendor/telemetry_capture.dat\", \"reason\": \"ValueError: unsupported extension: .dat\"}]}\n",
+  "score": 200,
+  "maximum": 200,
+  "metrics": {
+    "peak_allocated_bytes": 17111398400,
+    "peak_reserved_bytes": 17894998016,
+    "gpu": "AMD Radeon Pro W7900D",
+    "torch": "2.13.0+rocm10.0.0",
+    "hip": "7.15.26333"
+  },
+  "results": [
+    {
+      "id": "query_01",
+      "seconds": 1.4058486986905336,
+      "output": {
+        "answer": "94 C",
+        "citations": [
+          "specs/tq40_datasheet_r2.pdf"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_02",
+      "seconds": 1.701925352215767,
+      "output": {
+        "answer": "Q3 FY27",
+        "citations": [
+          "planning/roadmap_fy27.docx"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_03",
+      "seconds": 3.014488074928522,
+      "output": {
+        "answer": "ORR-FAN-2214-B",
+        "citations": [
+          "support/rma_parts.xlsx"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_04",
+      "seconds": 2.5660197753459215,
+      "output": {
+        "answer": "4.3.2",
+        "citations": [
+          "support/bug_database.csv"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_05",
+      "seconds": 2.1871629767119884,
+      "output": {
+        "answer": "E7731",
+        "citations": [
+          "logs/prod_inference_2026-09-02.log"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_06",
+      "seconds": 2.45502751134336,
+      "output": {
+        "answer": "180",
+        "citations": [
+          "engineering/ingest_service.py"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_07",
+      "seconds": 1.3479848075658083,
+      "output": {
+        "answer": "B14",
+        "citations": [
+          "specs/backplane_pinout.png"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_08",
+      "seconds": 1.5619583036750555,
+      "output": {
+        "answer": "REV-C2",
+        "citations": [
+          "support/asset_label.jpg"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_09",
+      "seconds": 4.245040766894817,
+      "output": {
+        "answer": "4.3.2",
+        "citations": [
+          "logs/prod_inference_2026-09-02.log",
+          "support/bug_database.csv"
+        ],
+        "confidence": 0.8
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    },
+    {
+      "id": "query_10",
+      "seconds": 0.6186885498464108,
+      "output": {
+        "answer": "",
+        "citations": [],
+        "confidence": 0.0
+      },
+      "answer_correct": true,
+      "citations_correct": true,
+      "points": 20
+    }
+  ]
+}
